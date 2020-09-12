@@ -1,0 +1,116 @@
+body {
+    text-align: center;
+}
+
+
+header {
+height: 70px;
+background: pink;
+display: flex;
+justify-content: space-between;
+}
+
+.headertext {
+    font-size: 30px;
+    
+
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+
+}
+
+li {
+    font-size: 20px;
+    margin: 20px;
+}
+
+.upperbox {
+    background: white;
+    height: 100px;
+}
+
+.midbox {
+    background: pink;
+    height: 1000px;
+    width: 100vw;
+}
+
+h1 {
+    color: purple;
+    position: relative;
+    top: 30px;
+}
+
+.gb1 {
+    height: 300px;
+    width: 200px;
+    background: green;
+    position: relative;
+    left: 1300px;
+    top: 100px;
+    border-radius: 5px;
+   }
+
+   .gb2 {
+    height: 300px;
+    width: 200px;
+    background: green;
+    position: relative;
+    left: 400px;
+    bottom: 200px;
+    border-radius: 5px;
+   }
+
+   .gb3 {
+    height: 300px;
+    width: 200px;
+    background: green;
+    position: relative;
+    left: 850px;
+    bottom: 500px;
+    border-radius: 5px;
+   }
+
+   .ob1 {
+       background: orange;
+       height: 100px;
+       width: 500px;
+       position: relative;
+       bottom: 280px;
+       left: 1300px;
+   }
+
+   
+   .ob2 {
+    background: orange;
+    height: 100px;
+    width: 500px;
+    position: relative;
+    bottom: 400px;
+    left: 110px;
+}
+
+.textb {
+    position: relative;
+    bottom: 350px;
+    right: 600px;
+    
+}
+
+.elb {
+    position: relative;
+    bottom: 608px;
+    left: 580px;
+    
+}
+
+footer {
+    background: darkslateblue;
+    height: 300px;
+    width: 100vw;
+}
